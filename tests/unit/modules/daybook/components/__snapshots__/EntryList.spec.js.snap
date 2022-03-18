@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el EntryList Debe llamar al entrylistbyterm y mostrar las 3 entradas 1`] = `[Function]`;

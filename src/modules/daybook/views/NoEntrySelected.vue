@@ -1,15 +1,21 @@
 <template>
   <div class="d-flex justify-content-center">
       <h1 class="align-self-center">No hay nada seleccionado</h1>
-      <fab/>
+      <fab @on:click="createNewEntry"/>
   </div>
 </template>
 
 <script>
 import { defineAsyncComponent } from '@vue/runtime-core'
 export default {
+    name: 'NoEntrySelected',
     components: {
         Fab: defineAsyncComponent(() => import('../components/Fab'))
+    },
+    methods: {
+        createNewEntry(){
+            this.$router.push({name: 'entry', params: {id:'new'}})
+        }
     }
 }
 </script>

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el EntryView Debe de mostrar la entrada correctamente 1`] = `
+<!-- template no cambia el html, sirve para agrupar condicionales -->
+<div class="entry-title d-flex justify-content-between p-2">
+  <div><span class="text-success fs-3 fw-bold">2</span><span class="mx-1 fs-3">Febrero</span><span class="mx-2 fs-4 fw-light">2022, Miércoles</span></div>
+  <div><input type="file" style="display: none;"><button class="btn btn-danger mx-2"> Borrar <i class="fa fa-trash-alt"></i></button><button class="btn btn-primary"> Subir foto <i class="fa fa-upload"></i></button></div>
+</div>
+<hr>
+<div class="d-flex flex-column px-3 h-75"><textarea placeholder="¿Que sucedio hoy?"></textarea></div>
+<!-- <img
+    src="https://cdn0.matrimonios.cl/vendor/4636/3_2/960/jpg/ideal-para-tu-evento.jpeg"
+    alt="image"
+    class="img-thumbnail"
+  /> -->
+<!--v-if-->
+<!--v-if-->
+<fab-stub icon="fa-save"></fab-stub>
+`;
